@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Explore the full menu of CafeWave© including coffee, tea, snacks, and desserts." />
+    <title>Menu | CafeWave©</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="assets/images/favicon.png" />
+</head>
+  <body class="theme-light">
+    <header class="site-header site-header--solid">
+      <div class="container header-container">
+        <a class="logo" href="index.html">
+          <img src="assets/icons/logo-mark.svg" alt="CafeWave© logo" />
+          <span>CafeWave©</span>
+        </a>
+        <nav class="site-nav" data-nav>
+          <button class="nav-close" data-nav-close aria-label="Close navigation">
+            <span>&times;</span>
+          </button>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index-2.html">Home Alt</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html" class="is-active">Menu</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <button class="theme-toggle" data-theme-toggle aria-label="Toggle theme">
+            <img src="assets/icons/moon.svg" alt="Toggle dark mode" />
+          </button>
+          <a class="btn btn-outline" href="reservation.html">Reserve</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <span class="eyebrow">Menu</span>
+          <h1>Seasonal Sips & Bites</h1>
+          <p>Thoughtfully sourced, handcrafted drinks and bites designed to bring comfort and delight.</p>
+        </div>
+      </section>
+
+      <section class="section section-menu-full">
+        <div class="container">
+          <div class="menu-tabs" data-menu-tabs>
+            <button class="menu-tab is-active" data-category="coffee">Coffee</button>
+            <button class="menu-tab" data-category="tea">Tea</button>
+            <button class="menu-tab" data-category="snacks">Snacks</button>
+            <button class="menu-tab" data-category="desserts">Desserts</button>
+          </div>
+
+          <div class="menu-category is-active" data-menu-panel="coffee">
+            <div class="grid grid-three menu-grid">
+              <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1527169402691-feff5539e52c?auto=format&fit=crop&w=600&q=80" alt="Classic cappuccino" />
+                <div>
+                  <h3>Classic Cappuccino</h3>
+                  <p>Double shot espresso, velvety milk foam, dusted with cacao nibs.</p>
+                  <div class="menu-actions">
+                    <span class="price">$4.50</span>
+                    <button class="btn btn-small" data-cart>Add to Cart</button>
+                  </div>
+                </div>
+              </article>
+              <article class="menu-card">
+                <img src="https://globalassets.starbucks.com/digitalassets/products/bev/SBX20211029_SaltedCaramelCreamColdBrew.jpg?impolicy=1by1_wide_topcrop_630" alt="Caramel cold brew" />
+                <div>
+                  <h3>Salted Caramel Cold Brew</h3>
+                  <p>18-hour steeped cold brew, oat crema, smoked sea salt caramel.</p>
+                  <div class="menu-actions">
+                    <span class="price">$5.25</span>
+                    <button class="btn btn-small" data-cart>Add to Cart</button>
+                  </div>
+                </div>
+              </article>
+              <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1481391032119-d89fee407e44?auto=format&fit=crop&w=600&q=80" alt="Seasonal pour over" />
+                <div>
+                  <h3>Origin Pour Over</h3>
+                  <p>Rotating single-origin brew, notes of plum, honey, and florals.</p>
+                  <div class="menu-actions">
+                    <span class="price">$5.75</span>
+                    <button class="btn btn-small" data-cart>Add to Cart</button>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="menu-category" data-menu-panel="tea">
+            <div class="grid grid-three menu-grid">
+              <article class="menu-card">
+                <img src="https://img-global.cpcdn.com/recipes/b5210a8478b4045a/680x482cq70/yuzu-matcha-latte-foto-resep-utama.jpg" alt="Matcha latte" />
+                <div>
+                  <h3>Yuzu Matcha Latte</h3>
+                  <p>Stone-ground matcha, steamed macadamia milk, yuzu zest.</p>
+                  <div class="menu-actions">
+                    <span class="price">$5.95</span>
+                    <button class="btn btn-small" data-cart>Add to Cart</button>
+                  </div>
+                </div>
+              </article>
+              <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1430163393927-3dab9af7ea38?auto=format&fit=crop&w=600&q=80" alt="Chai tea" />
+                <div>
+                  <h3>Spiced Amber Chai</h3>
+                  <p>House blend chai, warm spices, orange peel, raw honey.</p>
+                  <div class="menu-actions">
+                    <span class="price">$4.95</span>
+                    <button class="btn btn-small" data-cart>Add to Cart</button>
+                  </div>
+                </div>
+              </article>
+              <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1504544750208-dc0358e63f7f?auto=format&fit=crop&w=600&q=80" alt="Iced hibiscus tea" />
+                <div>
+                  <h3>Hibiscus Breeze Tea</h3>
+                  <p>Hibiscus, rose hips, mint, sparkling water, agave.</p>
+                  <div class="menu-actions">
+                    <span class="price">$4.50</span>
+                    <button class="btn btn-small" data-cart>Add to Cart</button>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="menu-category" data-menu-panel="snacks">
+            <div class="grid grid-three menu-grid">
+              <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1504753793650-d4a2b783c15e?auto=format&fit=crop&w=600&q=80" alt="Avocado toast" />
+                <div>
+                  <h3>Charred Citrus Avocado Toast</h3>
+                  <p>Sourdough, smashed avocado, charred lemon, chili crunch, microgreens.</p>
+                  <div class="menu-actions">
+                    <span class="price">$8.75</span>
+                    <button class="btn btn-small" data-cart>Add to Cart</button>
+                  </div>
+                </div>
+              </article>
+              <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=600&q=80" alt="Breakfast sandwich" />
+                <div>
+                  <h3>Sunrise Brioche Sandwich</h3>
+                  <p>Soft-scrambled egg, smoked gouda, greens, tomato jam.</p>
+                  <div class="menu-actions">
+                    <span class="price">$9.95</span>
+                    <button class="btn btn-small" data-cart>Add to Cart</button>
+                  </div>
+                </div>
+              </article>
+              <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1516685018646-549198525c1b?auto=format&fit=crop&w=600&q=80" alt="Granola bowl" />
+                <div>
+                  <h3>Maple Pecan Granola Bowl</h3>
+                  <p>Greek yogurt, roasted pecans, seasonal fruit, maple drizzle.</p>
+                  <div class="menu-actions">
+                    <span class="price">$7.50</span>
+                    <button class="btn btn-small" data-cart>Add to Cart</button>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="menu-category" data-menu-panel="desserts">
+            <div class="grid grid-three menu-grid">
+              <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=600&q=80" alt="Chocolate tart" />
+                <div>
+                  <h3>Sea Salt Ganache Tart</h3>
+                  <p>Dark chocolate ganache, cocoa nib crust, sea salt flakes.</p>
+                  <div class="menu-actions">
+                    <span class="price">$6.25</span>
+                    <button class="btn btn-small" data-cart>Add to Cart</button>
+                  </div>
+                </div>
+              </article>
+              <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80" alt="Cinnamon roll" />
+                <div>
+                  <h3>Cardamom Morning Roll</h3>
+                  <p>Cardamom swirl, brown butter icing, toasted pistachio crumble.</p>
+                  <div class="menu-actions">
+                    <span class="price">$4.95</span>
+                    <button class="btn btn-small" data-cart>Add to Cart</button>
+                  </div>
+                </div>
+              </article>
+              <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e?auto=format&fit=crop&w=600&q=80" alt="Cheesecake" />
+                <div>
+                  <h3>Burnt Honey Cheesecake</h3>
+                  <p>Basque-style cheesecake, honeycomb, chamomile whipped cream.</p>
+                  <div class="menu-actions">
+                    <span class="price">$6.75</span>
+                    <button class="btn btn-small" data-cart>Add to Cart</button>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a class="logo" href="index.html">
+            <img src="assets/icons/logo-mark.svg" alt="CafeWave© logo" />
+            <span>CafeWave©</span>
+          </a>
+          <p>Brewing joy since 2012. Community-first, sustainably sourced, and always handcrafted.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Follow on Instagram">
+              <img src="assets/icons/instagram.svg" alt="Instagram" />
+            </a>
+            <a href="#" aria-label="Follow on Facebook">
+              <img src="assets/icons/facebook.svg" alt="Facebook" />
+            </a>
+            <a href="#" aria-label="Follow on TikTok">
+              <img src="assets/icons/tiktok.svg" alt="TikTok" />
+            </a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Visit</h4>
+          <ul>
+            <li><a href="https://maps.google.com" target="_blank" rel="noopener">123 Brew Lane, Portland, OR</a></li>
+            <li><a href="tel:+15034445566">(503) 444-5566</a></li>
+            <li><a href="mailto:hello@3degree.cafe">hello@3degree.cafe</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Journal</a></li>
+            <li><a href="pricing.html">Subscriptions</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="reservation.html">Reserve a Table</a></li>
+            <li><a href="login.html">Member Login</a></li>
+            <li><a href="coming-soon.html">New Location</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>&copy; <span data-year></span> CafeWave©. Crafted with heart and fair-trade beans.</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/fixes.js"></script>
+</body>
+</html>
+
+
+
+
+
+
